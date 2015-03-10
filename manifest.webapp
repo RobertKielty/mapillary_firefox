@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "name": "Mapillary",
+  "description": "A camera app for contributing to Mapillary.",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/icons/icon603x.png"
+  },
+  "developer": {
+    "name": "Mapillary",
+    "url": "http://mapillary.com"
+  },
+  "type": "privileged",
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to load remote content"
+    },
+   "camera": {
+     "description": "Required for accessing cameras on the device."
+   }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "es": {
+      "name": "Aplicación privilegiada",
+      "description": "Demuestra cómo utilizar permisos para cargar contenido remoto",
+      "permissions": {
+        "systemXHR": {
+          "description": "Requerido para cargar contenido remoto"
+        }
+      }
+    }
+  },
+  "default_locale": "en"
+}
